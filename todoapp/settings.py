@@ -23,10 +23,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-qn3*90k+jw1e56sp(g+vwc_wwq5l8vd!ykfh34%3@ze-q81iez'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
-    'todoappapi-production-6fe1.up.railway.app'
+    'todoappapi-production-6fe1.up.railway.app',
+    '127.0.0.1',
+    'localhost'
 ]
 
 # Application definition
